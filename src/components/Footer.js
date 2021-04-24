@@ -8,7 +8,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+          Aesop products
         </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
@@ -29,34 +29,34 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
+            <Link to='/sign-up'>Our Story</Link>
+            <Link to='/'>Foundation</Link>
             <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
+            <Link to='/'>Privacy policy</Link>
             <Link to='/'>Terms of Service</Link>
           </div>
           <div class='footer-link-items'>
-            <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
+            <h2>Services</h2>
+            <Link to='/'>Life Assistance</Link>
+            <Link to='/'>Corporate gift</Link>
+            <Link to='/'>Facial Appointmnets</Link>
             <Link to='/'>Sponsorships</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
+            <h2>Order & support</h2>
+            <Link to='/'>Contact us</Link>
+            <Link to='/'>FAQs</Link>
+            <Link to='/'>Delivery & return</Link>
+            <Link to='/'>Terms and condition</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
             <Link to='/'>Instagram</Link>
             <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <Link to='/'>linkedin</Link>
+            <Link to='/'>WeChat</Link>
           </div>
         </div>
       </div>
@@ -64,11 +64,11 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRVL
+              AESOP
               <i class='fab fa-typo3' />
             </Link>
           </div>
-          <small class='website-rights'>TRVL © 2020</small>
+          <small class='website-rights'>AESOP © 2020</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
